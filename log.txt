@@ -1,0 +1,772 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< RestAssuredAutomation:RestAssredAutomation >-------------
+[INFO] Building RestAssredAutomation 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RestAssredAutomation ---
+[INFO] Deleting C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RestAssredAutomation ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ RestAssredAutomation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ RestAssredAutomation ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ RestAssredAutomation ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ RestAssredAutomation ---
+[INFO] Surefire report directory: C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2a18f23c
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:00:19 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1642512894
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 19600
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Op3CHCGH1Bnd8u8oGAv4erouG1jDr0QbnAm6rOv2CML5wVKUsGjaJ%2FgSzLR1Crtay87985c55yipT%2FRXCpqc6qEw9bW0vNI8kzAWf5dNii%2Fv%2F38Wmy2sqAkptMHW2toar52FN23%2B6xkpKAKfKl2E"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d12191dff6e67ec-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:00:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+cache-control: no-cache
+etag: W/"48c-nmH41EaBm9u2aLvR4FYsTNwH9pc"
+vary: Accept-Encoding
+content-encoding: gzip
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uuNb7F2mFjOixSFq3Sma13Bl%2BBYlGeglKJQKQiw5wlfkU58XhYH86CWUOh0AGztphGjFUqSiQLJTW%2FJcYPaE8GGBhXd2V3hsQ7DHr8yyA6vdk6PqlQ0plmAhKVus%2FrBdvrt0rg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d1219209fd709b6-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Bob",
+                "last": "Cook"
+            },
+            "location": {
+                "street": {
+                    "number": 3173,
+                    "name": "Mcgowen St"
+                },
+                "city": "Townsville",
+                "state": "Northern Territory",
+                "country": "Australia",
+                "postcode": 7611,
+                "coordinates": {
+                    "latitude": "-87.7107",
+                    "longitude": "-145.6665"
+                },
+                "timezone": {
+                    "offset": "+5:30",
+                    "description": "Bombay, Calcutta, Madras, New Delhi"
+                }
+            },
+            "email": "bob.cook@example.com",
+            "login": {
+                "uuid": "2b57d5bd-a33f-4679-ba7d-14918a3a5750",
+                "username": "purplekoala840",
+                "password": "wally",
+                "salt": "3Nnl9zCJ",
+                "md5": "8ca3a996a397d2bc532cea5f451487a4",
+                "sha1": "afa41c3a4f3df051858d5710923c0d0bc4a8ad05",
+                "sha256": "37f65675b408601dc3cd4c029ea997030233606aec56dfb43def4a8a89d2052c"
+            },
+            "dob": {
+                "date": "1949-05-04T09:15:53.456Z",
+                "age": 73
+            },
+            "registered": {
+                "date": "2006-09-04T17:41:04.168Z",
+                "age": 16
+            },
+            "phone": "00-5626-3430",
+            "cell": "0445-955-344",
+            "id": {
+                "name": "TFN",
+                "value": "518120725"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/57.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/57.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/57.jpg"
+            },
+            "nat": "AU"
+        }
+    ],
+    "info": {
+        "seed": "d099cb4b05625e1b",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Fri, 21 Jan 2022 17:00:23 GMT
+Display: staticcontent_sol
+Expires: Sat, 21 Jan 2023 17:00:21 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Server-Cache: false
+X-Sol: pub_site
+Content-Length: 631
+
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 2,
+            "employee_name": "Garrett Winters",
+            "employee_salary": 170750,
+            "employee_age": 63,
+            "profile_image": ""
+        },
+        {
+            "id": 3,
+            "employee_name": "Ashton Cox",
+            "employee_salary": 86000,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 4,
+            "employee_name": "Cedric Kelly",
+            "employee_salary": 433060,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 5,
+            "employee_name": "Airi Satou",
+            "employee_salary": 162700,
+            "employee_age": 33,
+            "profile_image": ""
+        },
+        {
+            "id": 6,
+            "employee_name": "Brielle Williamson",
+            "employee_salary": 372000,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 7,
+            "employee_name": "Herrod Chandler",
+            "employee_salary": 137500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 8,
+            "employee_name": "Rhona Davidson",
+            "employee_salary": 327900,
+            "employee_age": 55,
+            "profile_image": ""
+        },
+        {
+            "id": 9,
+            "employee_name": "Colleen Hurst",
+            "employee_salary": 205500,
+            "employee_age": 39,
+            "profile_image": ""
+        },
+        {
+            "id": 10,
+            "employee_name": "Sonya Frost",
+            "employee_salary": 103600,
+            "employee_age": 23,
+            "profile_image": ""
+        },
+        {
+            "id": 11,
+            "employee_name": "Jena Gaines",
+            "employee_salary": 90560,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 12,
+            "employee_name": "Quinn Flynn",
+            "employee_salary": 342000,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 13,
+            "employee_name": "Charde Marshall",
+            "employee_salary": 470600,
+            "employee_age": 36,
+            "profile_image": ""
+        },
+        {
+            "id": 14,
+            "employee_name": "Haley Kennedy",
+            "employee_salary": 313500,
+            "employee_age": 43,
+            "profile_image": ""
+        },
+        {
+            "id": 15,
+            "employee_name": "Tatyana Fitzpatrick",
+            "employee_salary": 385750,
+            "employee_age": 19,
+            "profile_image": ""
+        },
+        {
+            "id": 16,
+            "employee_name": "Michael Silva",
+            "employee_salary": 198500,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 17,
+            "employee_name": "Paul Byrd",
+            "employee_salary": 725000,
+            "employee_age": 64,
+            "profile_image": ""
+        },
+        {
+            "id": 18,
+            "employee_name": "Gloria Little",
+            "employee_salary": 237500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 19,
+            "employee_name": "Bradley Greer",
+            "employee_salary": 132000,
+            "employee_age": 41,
+            "profile_image": ""
+        },
+        {
+            "id": 20,
+            "employee_name": "Dai Rios",
+            "employee_salary": 217500,
+            "employee_age": 35,
+            "profile_image": ""
+        },
+        {
+            "id": 21,
+            "employee_name": "Jenette Caldwell",
+            "employee_salary": 345000,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 22,
+            "employee_name": "Yuri Berry",
+            "employee_salary": 675000,
+            "employee_age": 40,
+            "profile_image": ""
+        },
+        {
+            "id": 23,
+            "employee_name": "Caesar Vance",
+            "employee_salary": 106450,
+            "employee_age": 21,
+            "profile_image": ""
+        },
+        {
+            "id": 24,
+            "employee_name": "Doris Wilder",
+            "employee_salary": 85600,
+            "employee_age": 23,
+            "profile_image": ""
+        }
+    ],
+    "message": "Successfully! All records has been fetched."
+}
+200
+238
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+Date=Fri, 21 Jan 2022 17:01:00 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+x-powered-by=Express
+access-control-allow-origin=*
+etag=W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via=1.1 vegur
+Cache-Control=max-age=14400
+CF-Cache-Status=HIT
+Age=1203
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hsxgou3yF53DyqEgXnlHdX5TgbvwzZgSGnJ43cb2PqlFfAdIZFXDMKDs4BDPJKI3UhiHjPaMA2MBa1i6v1TNMWUX9j1NQPQsU%2FhzuVxkXuh2SmJpc6CaYbcwo30%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=6d121a208c59221e-MIA
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:01:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 4631
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BeyLx1D5fDdl7IctIYD4I3NUlx6SOnEYsPstxpCd9kID1qKMwTDxz9UFj4qRPgjdXYl1IK0UbXCJgBG9HLDDkAVHlu9HNrzza3jK5qDp9XxLwlNZ0kYdorSsyQQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6d121a21ff7d02ba-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.476 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.402 s
+[INFO] Finished at: 2022-01-21T12:01:13-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< RestAssuredAutomation:RestAssredAutomation >-------------
+[INFO] Building RestAssredAutomation 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RestAssredAutomation ---
+[INFO] Deleting C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RestAssredAutomation ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ RestAssredAutomation ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ RestAssredAutomation ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ RestAssredAutomation ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ RestAssredAutomation ---
+[INFO] Surefire report directory: C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2a18f23c
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:01:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 999
+x-ratelimit-reset: 1642784491
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: max-age=43200
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+via: 1.1 vegur
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xeHnHw3fP3IE86GMAY07ePp49k9SxtHJZ02%2BZ0qzS%2BKUZVrzi%2FiXtpBt6AthwMJH12YEIlBogG9h7WGdR%2BwUvTjZlzeakVluq07QGiw%2FHFpzqNzQSJgoTn2h%2F7O8yh4OpK2jepyefavXXb133nm0"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d121ab9d8bbd519-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:01:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+cache-control: no-cache
+etag: W/"490-u5IZsliboNeXOgjwcahpyDkzIZM"
+vary: Accept-Encoding
+content-encoding: gzip
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5vqc9JVsupK69Kqh%2BbulLIy1eFw9eMEllsUi7GqjMRRncYWW4%2FZeNqMZGUStjCq9TGr2qS%2FB3sEwVscZVwecoFJDPJtnAoNU3tawUh2UQNwk1SvGuz4rYY6iGU6P35x00WFOeg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d121abddabf0325-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Erik",
+                "last": "Santos"
+            },
+            "location": {
+                "street": {
+                    "number": 6213,
+                    "name": "Rua Dezesseis de Maio"
+                },
+                "city": "Viamão",
+                "state": "Santa Catarina",
+                "country": "Brazil",
+                "postcode": 44435,
+                "coordinates": {
+                    "latitude": "-70.0265",
+                    "longitude": "-54.5811"
+                },
+                "timezone": {
+                    "offset": "+10:00",
+                    "description": "Eastern Australia, Guam, Vladivostok"
+                }
+            },
+            "email": "erik.santos@example.com",
+            "login": {
+                "uuid": "ef94fd6e-1bea-463e-9c9d-c1b0fea66b64",
+                "username": "silverlion849",
+                "password": "skydive",
+                "salt": "6fS5Myp6",
+                "md5": "b1335b36db8a0effa5a8ddc947b3307d",
+                "sha1": "6f3aaa3b470e10f7c5bbc751077eddb53f03a1d3",
+                "sha256": "c241340c5ec718c4bd9690ce6f6958684c64d7eea5d16562e794b68775a8982b"
+            },
+            "dob": {
+                "date": "1988-06-05T23:58:21.019Z",
+                "age": 34
+            },
+            "registered": {
+                "date": "2003-09-02T23:36:06.330Z",
+                "age": 19
+            },
+            "phone": "(09) 8634-7320",
+            "cell": "(60) 9755-7278",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/74.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+            },
+            "nat": "BR"
+        }
+    ],
+    "info": {
+        "seed": "55a9ab054675a7b7",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
+200
+347
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+Date=Fri, 21 Jan 2022 17:01:28 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+x-powered-by=Express
+access-control-allow-origin=*
+etag=W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via=1.1 vegur
+Cache-Control=max-age=14400
+CF-Cache-Status=HIT
+Age=1231
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xKmn1l5SZOijGVvBo%2BEhPt2bwU3xSkaAl9gVOHXFg1yd%2BRR7%2Bd1V3%2B5k%2B%2FiAzogB00fcPb7LcES7cwY49Zn23JNX5ItSg%2FJjzc7SEguFuewLf9oJBg%2Fz4fWN3Ro%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=6d121acdd80067c2-MIA
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 17:01:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 681
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0mIQIwQP%2BOOg6BxuCGASKVat%2FpGX1X6uQCKFfsKLK85IfYnjY0e%2Bon6naHUUbj4iKHVEW6Um2AVYGqTkwp%2FIbAjin1OSTEmO7c49ydZ2esmMPNoKi9wPUmTy3FY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6d121acfaa5c8ddc-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.57 sec <<< FAILURE!
+logMultipleResponseTest(tests.BasicValidationsTest)  Time elapsed: 1.664 sec  <<< FAILURE!
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at tests.BasicValidationsTest.logMultipleResponseTest(BasicValidationsTest.java:43)
+
+
+Results :
+
+Failed tests:   logMultipleResponseTest(tests.BasicValidationsTest): 1 expectation failed.(..)
+
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.309 s
+[INFO] Finished at: 2022-01-21T12:01:41-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project RestAssredAutomation: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\dgrajales\eclipse-workspace\RestAssredAutomation\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

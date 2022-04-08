@@ -1,0 +1,8 @@
+SerializationAndDeserialization\Student.class
+tests\TestsExamples.class
+SerializationAndDeserialization\Test.class
+SerializationAndDeserialization\SerializationJson.class
+SerializationAndDeserialization\SerializationAndDeserialization.class
+tests\BasicValidationsTest.class
+tests\GetAndPostExamples.class
+tests\BasicValidationXML.class
