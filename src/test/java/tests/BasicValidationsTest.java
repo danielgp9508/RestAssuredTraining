@@ -33,7 +33,7 @@ public class BasicValidationsTest {
 			System.out.println("clave: " + key + "valor: " + a.get(key));
 		}
 		Map<String, Player> b = new HashMap<String, Player>();
-		b.put("Manchester", new Player(10, "Daniel", "Arquero"));
+		b.put("Manchester1", new Player(10, "Daniel", "Arquero"));
 		b.put("Real Madrid", new Player(9, "Alexander", "Defensa"));
 		
 		Iterator it1 = b.keySet().iterator();
