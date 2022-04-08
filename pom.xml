@@ -9,7 +9,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<spring.version>default123</spring.version>
-		<runnerTag>BasicValidationsTest</runnerTag>
+		<runnerTag>BasicValidationsTest1</runnerTag>
 	</properties>
 
 	<repositories>
