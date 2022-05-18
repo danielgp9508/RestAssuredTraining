@@ -1,3 +1,5 @@
+DataBase\DataBaseConnection.class
+tests\Player.class
 SerializationAndDeserialization\Student.class
 tests\TestsExamples.class
 SerializationAndDeserialization\Test.class

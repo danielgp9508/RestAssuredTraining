@@ -10,6 +10,7 @@ import groovy.util.logging.Log;
 
 public class BasicValidationXML {
 
+
 	@Test(priority = 1)
 	public void singleValidation() {
 		

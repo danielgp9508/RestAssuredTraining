@@ -19,7 +19,7 @@ public class DataBaseConnection {
 		String userName = "root";
 		String password = "ApoloGP9508";
 		
-		Class.forName(driver);
+		//Class.forName(driver);
 		Connection con = DriverManager.getConnection(dbURL, userName, password);
 		
 		Statement  st = con.createStatement();

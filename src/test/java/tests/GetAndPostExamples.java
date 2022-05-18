@@ -49,9 +49,14 @@ public class GetAndPostExamples {
 		
 		given().
 			pathParam("testpath", "pathName").
-			param("name", "daniel").
-			param("hola", "test").
-			header("cookie","abs234").headers(map).
+			queryParam("name", "daniel").
+			queryParam("hola", "test").
+			
+			//param("name", "daniel").
+			//param("hola", "test").
+			cookie("abc123").
+			header("Cookie","abs234").
+			headers(map).
 			log().all().
 		when().
 			get("https://api.agify.io/{testpath}").
@@ -76,7 +81,12 @@ public class GetAndPostExamples {
 	//request2.put("job", "abc123");
 	//System.out.println(request2.toJSONString());
 	baseURI = "https://reqres.in/api";
-	given().body("{\"email\"=\"teacher\", \"password\"=\"Danilson@asdas\"}").when().post(baseURI + "/users").then().statusCode(201).log().body();
+	given().
+		body("{\"email\"=\"teacher\", \"password\"=\"Danilson@asdas\"}").
+	when().
+		post(baseURI + "/users").
+	then().
+		statusCode(201).log().body();
 	//given().body(request2.toJSONString()).when().post(baseURI + "/login").then().statusCode(200).log().body();
 	}
 	
