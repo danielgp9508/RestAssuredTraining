@@ -5,5 +5,5 @@
     <classes>
       <class name="tests.BasicValidationsTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test  cherry pick 1-->
 </suite> <!-- Suite -->
