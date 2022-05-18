@@ -5,5 +5,5 @@
     <classes>
       <class name="tests.BasicValidationsTest"/>
     </classes>
-  </test> <!-- Test -- cambio git>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
