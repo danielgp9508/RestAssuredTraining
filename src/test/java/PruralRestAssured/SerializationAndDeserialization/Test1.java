@@ -23,8 +23,7 @@ public class Test1 {
 		System.out.println(fj.getData().get(1).getId());
 		System.out.println(fj);
 		
-		List<Data> list = fj.getData();
-		for(Data value : list) {
+		for(Data value :  fj.getData()) {
 			System.out.println(value.getId());
 		}
 		

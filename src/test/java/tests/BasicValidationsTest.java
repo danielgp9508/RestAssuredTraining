@@ -82,7 +82,7 @@ public class BasicValidationsTest {
 		
 	}*/
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void properties() {
 		
 		Properties pro = new Properties();
@@ -91,8 +91,10 @@ public class BasicValidationsTest {
 			//		+ "resources" + File.separator + "properties" + File.separator + "test.properties")));
 			//System.out.println(pro.getProperty("sp"));
 			//System.out.println(System.getProperty("spring.version"));
+			System.setProperty("test1", "abc");
 			pro.load(BasicValidationsTest.class.getClassLoader().getResourceAsStream("test.properties"));
 			System.out.println(pro.getProperty("sp"));
+			System.out.println(pro.size());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
